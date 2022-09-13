@@ -10,9 +10,20 @@
         android:id="@+id/tabLayout_id"
         android:layout_width="409dp"
         android:layout_height="wrap_content"
+        android:background="#F8F8F5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:tabGravity="center"
+        app:tabIconTint="@color/tabfontcolor"
+        app:tabIconTintMode="add"
+        app:tabIndicatorAnimationMode="linear"
+        app:tabIndicatorColor="#B88D4D"
+        app:tabMode="scrollable"
+        app:tabPaddingEnd="40dp"
+        app:tabPaddingStart="40dp"
+        app:tabSelectedTextColor="#B88D4D"
+        app:tabTextColor="#6674BF">
 
         <com.google.android.material.tabs.TabItem
             android:layout_width="wrap_content"
@@ -28,16 +39,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tab 3" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tab 4" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPager_id"
-        android:layout_width="409dp"
-        android:layout_height="553dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="1dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
