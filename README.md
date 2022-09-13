@@ -1,6 +1,6 @@
 # Fragment_4
 * Description : TabLayout demo project
-* App Screen Shot:
+* App Screen Shot :
 
 | Tab 1     |
 | ----------- | 
